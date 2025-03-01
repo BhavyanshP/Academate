@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Learn Coding</title>
+
+        <!--CSS File-->
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+
+        <header>
+          
+            <a href="index.html" class="company-name"><img class="logo"src="C:\Users\bhavy_1ljufsb\OneDrive\Desktop\Project (IA)\Media\3D_icons_to_show_security__protection__encryption_and_privacy-removebg-preview.png" alt="Logo">AcadeMate.</a>
+
+            <nav class="web-pages">
+                <a href="Learn.html" class="active-learn learn-main-nav-bar">Learn</a>
+                <a href="Help.html" class="help-main-nav-bar">Help</a>
+                <a href="Contact Us.html" class="contact-us-main-nav-bar">Contact Us</a>
+                <a href="About Us.html" class="about-us-main-nav-bar">About Us</a>
+            </nav>
+
+        </header>
+
+            <nav class="learn-nav-bar">
+                <a href="html.html" class="learn-nav-bar-a active-language-links">HTML</a>
+                <a href="Css.html" class="learn-nav-bar-a">CSS</a>
+                <a href="Java Script.html" class="learn-nav-bar-a">JAVA SCRIPT</a>
+                <a href="SQL.html" class="learn-nav-bar-a">SQL</a>
+                <a href="Python.html" class="learn-nav-bar-a">PYTHON</a>
+                <a href="Java.html" class="learn-nav-bar-a">JAVA</a>
+                <a href="PHP.html" class="learn-nav-bar-a">PHP</a>
+                <a href="C.html" class="learn-nav-bar-a">C</a>
+                <a href="C++.html" class="learn-nav-bar-a">C++</a>
+                <a href="C has.html" class="learn-nav-bar-a">C#</a>
+                <a href="Ruby.html" class="learn-nav-bar-a">RUBY</a>
+                <a href="ReactJS.html" class="learn-nav-bar-a">REACT JS</a>
+                <a href="NodeJS.html" class="learn-nav-bar-a">NODE JS</a>
+                <a href="AI.html" class="learn-nav-bar-a">AI</a>
+                <a href="CyberSecurity.html" class="learn-nav-bar-a">CYBERSECURITY</a>
+                <a href="Excel.html" class="learn-nav-bar-a">Excel</a>
+            </nav>
+
+            <div class="learn-introduction-div">
+                <div class="learn-introduction-div-slogan">
+                    <h1 class="learn-main-text">
+                        Learn,<br>
+                        <span class="learn-gradient-text">HTML.</span>
+                    </h1>
+                    
+                </div>
+                <div class="learn-introduction-div-img">
+                    <img src="C:\Users\bhavy_1ljufsb\OneDrive\Desktop\Project (IA)\Media\d60a0e5a23895794a2f6db21f7998176-removebg-preview.png" alt="image" width="350px" height="200px">
+                </div>
+            </div>
+
+            <div class="learn-individual-pages">
+                <h2>Introduction to HTML</h2>
+                <p>HTML (Hypertext Markup Language) is the standard markup language for creating web pages and web applications. It provides the structure and content of a webpage by using a system of tags and attributes.</p>
+        
+                <h2>Key Concepts of HTML</h2>
+                <p>Some key concepts of HTML include:</p>
+                <ul>
+                    <li>Tags: HTML tags are used to define elements within a webpage. Each tag typically consists of an opening tag, content, and a closing tag.</li>
+                    <li>Attributes: HTML attributes provide additional information about an element and are used within the opening tag.</li>
+                    <li>Elements: HTML elements are the building blocks of a webpage and can include headings, paragraphs, images, links, forms, and more.</li>
+                    <li>Document structure: HTML documents have a hierarchical structure defined by nested elements, with the <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, and <code>&lt;body&gt;</code> elements forming the basic structure.</li>
+                </ul>
+        
+                <h2>Benefits of HTML</h2>
+                <ul>
+                    <li>Simple syntax: HTML has a straightforward syntax that is easy to learn and understand.</li>
+                    <li>Wide support: HTML is supported by all modern web browsers, making it a reliable choice for creating cross-platform web content.</li>
+                    <li>Accessibility: HTML provides features for creating accessible web content, ensuring that websites are usable by people with disabilities.</li>
+                    <li>Integration: HTML can be easily integrated with other web technologies such as CSS (Cascading Style Sheets) and JavaScript to create interactive and visually appealing web pages.</li>
+                </ul>
+        
+                <h2>Negatives of HTML</h2>
+                <ul>
+                    <li>Static content: HTML is primarily used for defining the structure and content of web pages, but it lacks the ability to create dynamic and interactive features without additional technologies such as CSS and JavaScript.</li>
+                    <li>Design limitations: HTML alone does not provide advanced design capabilities, so additional styling with CSS is necessary to achieve desired visual effects.</li>
+                    <li>Browser compatibility: While HTML is widely supported, inconsistencies in how different web browsers interpret and render HTML code can sometimes lead to compatibility issues.</li>
+                </ul>
+
+                <div class="video-div">
+                    <h1 class="language-page-vid-h">Video Tutorial:</h1>
+                    <p><b>Learn at your own pace, Start watching our video tutorials by clicking your prefered language below</b></p>
+                    <div class="language-page-vid-button-group">
+                      <button onclick="playVideo(2)" class="language-page-vid-button">Hindi</button>
+                      <button onclick="playVideo(1)" class="language-page-vid-button">English</button>
+                    </div>
+                  
+                    <div class="video-container">
+                      <div id="video1" style="display: none;">
+                        <iframe width="1000" height="500" src="https://www.youtube.com/embed/kUMe1FH4CHE" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                  
+                      <div id="video2" style="display: none;">
+                        <iframe width="1000" height="500" src="https://www.youtube.com/embed/BsDoLVMnmZs" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <script>
+                  function playVideo(videoNumber) {
+                    // Hide all videos
+                    document.getElementById('video1').style.display = 'none';
+                    document.getElementById('video2').style.display = 'none';
+                  
+                    // Show the selected video
+                    document.getElementById('video' + videoNumber).style.display = 'block';
+                  }
+                  </script>
+        
+                <h2>Further Learning</h2>
+                <p>If you're interested in learning more about HTML, here are some resources to get you started:</p>
+                <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs - HTML</a>: Mozilla Developer Network provides comprehensive documentation and tutorials on HTML.</li>
+                    <li><a href="https://www.w3schools.com/html/">W3Schools HTML Tutorial</a>: W3Schools offers interactive tutorials and examples for learning HTML.</li>
+                    <li><a href="https://www.codecademy.com/learn/learn-html">Codecademy HTML Course</a>: Codecademy provides hands-on exercises and projects to help you learn HTML interactively.</li>
+                    <li><a href="https://www.udemy.com/topic/html/">Udemy HTML Courses</a>: Udemy offers a variety of HTML courses for beginners and advanced learners.</li>
+                </ul>
+            </div>
+        </div>
+            
+
+    
+        <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AcadeMate. All rights reserved.</p>  
+            </div>
+        </footer>
+    </body>
+</html> 

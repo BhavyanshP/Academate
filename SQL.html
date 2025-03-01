@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Learn Coding</title>
+
+        <!--CSS File-->
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+
+        <header>
+          
+            <a href="index.html" class="company-name"><img class="logo"src="C:\Users\bhavy_1ljufsb\OneDrive\Desktop\Project (IA)\Media\3D_icons_to_show_security__protection__encryption_and_privacy-removebg-preview.png" alt="Logo">AcadeMate.</a>
+
+            <nav class="web-pages">
+                <a href="Learn.html" class="active-learn learn-main-nav-bar">Learn</a>
+                <a href="Help.html" class="help-main-nav-bar">Help</a>
+                <a href="Contact Us.html" class="contact-us-main-nav-bar">Contact Us</a>
+                <a href="About Us.html" class="about-us-main-nav-bar">About Us</a>
+            </nav>
+
+        </header>
+
+            <nav class="learn-nav-bar">
+                <a href="html.html" class="learn-nav-bar-a ">HTML</a>
+                <a href="Css.html" class="learn-nav-bar-a">CSS</a>
+                <a href="Java Script.html" class="learn-nav-bar-a">JAVA SCRIPT</a>
+                <a href="SQL.html" class="learn-nav-bar-a active-language-links">SQL</a>
+                <a href="Python.html" class="learn-nav-bar-a">PYTHON</a>
+                <a href="Java.html" class="learn-nav-bar-a">JAVA</a>
+                <a href="PHP.html" class="learn-nav-bar-a">PHP</a>
+                <a href="C.html" class="learn-nav-bar-a">C</a>
+                <a href="C++.html" class="learn-nav-bar-a">C++</a>
+                <a href="C has.html" class="learn-nav-bar-a">C#</a>
+                <a href="Ruby.html" class="learn-nav-bar-a">RUBY</a>
+                <a href="ReactJS.html" class="learn-nav-bar-a">REACT JS</a>
+                <a href="NodeJS.html" class="learn-nav-bar-a">NODE JS</a>
+                <a href="AI.html" class="learn-nav-bar-a">AI</a>
+                <a href="CyberSecurity.html" class="learn-nav-bar-a">CYBERSECURITY</a>
+                <a href="Excel.html" class="learn-nav-bar-a">Excel</a>
+            </nav>
+
+            <div class="learn-introduction-div">
+                <div class="learn-introduction-div-slogan">
+                    <h1 class="learn-main-text">
+                        Learn,<br>
+                        <span class="learn-gradient-text">SQL.</span>
+                    </h1>
+                    
+                </div>
+                <div class="learn-introduction-div-img">
+                    <img src="C:\Users\bhavy_1ljufsb\OneDrive\Desktop\Project (IA)\Media\Free_Vector___Hand_drawn_flat_design_sql_illustration-removebg-preview.png" alt="image" width="350px" height="250px">
+                </div>
+            </div>
+
+            <div class="learn-individual-pages">
+                
+                <h2>Introduction to SQL</h2>
+                <p>SQL (Structured Query Language) is a domain-specific language used in programming and designed for managing and querying data in relational database management systems (RDBMS). SQL is commonly used for tasks such as data retrieval, data manipulation, and database administration.</p>
+        
+                <h2>Key Concepts of SQL</h2>
+                <p>Some key concepts in SQL include:</p>
+                <ul>
+                    <li>Database creation and management</li>
+                    <li>Data definition language (DDL) for defining database schema</li>
+                    <li>Data manipulation language (DML) for querying and modifying data</li>
+                    <li>Data control language (DCL) for controlling access to data</li>
+                    <li>Transaction control for ensuring data integrity and consistency</li>
+                    <li>Joins, subqueries, and aggregations for complex data retrieval</li>
+                </ul>
+        
+                <h2>Applications of SQL</h2>
+                <p>SQL is used in various domains and applications, including:</p>
+                <ul>
+                    <li>Web development: SQL is used for backend database management in web applications.</li>
+                    <li>Business intelligence: SQL is used for data analysis and reporting in business intelligence systems.</li>
+                    <li>Enterprise resource planning (ERP): SQL is used for managing business processes and data in ERP systems.</li>
+                    <li>Data warehousing: SQL is used for data storage and retrieval in data warehousing systems.</li>
+                    <li>Mobile applications: SQL is used for local data storage and synchronization in mobile apps.</li>
+                </ul>
+        
+                <h2>Benefits of SQL</h2>
+                <ul>
+                    <li>Standardization: SQL is a standardized language with well-defined syntax and semantics, ensuring portability and interoperability across different database systems.</li>
+                    <li>Expressiveness: SQL provides a rich set of features for querying and manipulating data, allowing users to perform complex operations with ease.</li>
+                    <li>Scalability: SQL databases can scale vertically and horizontally to handle large volumes of data and user requests.</li>
+                    <li>Data integrity: SQL provides mechanisms for enforcing data integrity constraints such as primary keys, foreign keys, and check constraints, ensuring data consistency and reliability.</li>
+                    <li>Security: SQL databases offer robust security features for controlling access to data and protecting sensitive information.</li>
+                </ul>
+        
+                
+                <div class="video-div">
+                    <h1 class="language-page-vid-h">Video Tutorial:</h1>
+                    <p><b>Learn at your own pace, Start watching our video tutorials by clicking your prefered language below</b></p>
+                    <div class="language-page-vid-button-group">
+                      <button onclick="playVideo(2)" class="language-page-vid-button">Hindi</button>
+                      <button onclick="playVideo(1)" class="language-page-vid-button">English</button>
+                    </div>
+                  
+                    <div class="video-container">
+                      <div id="video1" style="display: none;">
+                        <iframe width="1000" height="500" src="https://www.youtube.com/embed/wmiDdBG-yP4" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                  
+                      <div id="video2" style="display: none;">
+                        <iframe width="1000" height="500" src="https://www.youtube.com/embed/9_WZPp8e1DU" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <script>
+                  function playVideo(videoNumber) {
+                    // Hide all videos
+                    document.getElementById('video1').style.display = 'none';
+                    document.getElementById('video2').style.display = 'none';
+                  
+                    // Show the selected video
+                    document.getElementById('video' + videoNumber).style.display = 'block';
+                  }
+                  </script>
+        
+        <h2>Further Learning</h2>
+        <p>If you're interested in learning more about SQL, here are some resources to get you started:</p>
+        <ul>
+            <li><a href="https://www.w3schools.com/sql/">W3Schools SQL Tutorial</a>: Interactive tutorials and exercises for learning SQL basics.</li>
+            <li><a href="https://www.udemy.com/topic/sql/">Udemy SQL Courses</a>: Online courses covering SQL for beginners to advanced users.</li>
+            <li><a href="https://www.codecademy.com/learn/learn-sql">Codecademy SQL Course</a>: Hands-on SQL course for beginners.</li>
+            <li><a href="https://docs.microsoft.com/en-us/sql/">Microsoft SQL Documentation</a>: Official documentation and resources for Microsoft SQL Server.</li>
+        </ul>
+
+                
+            </div>
+        </div>
+            
+
+    
+        <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AcadeMate. All rights reserved.</p>  
+            </div>
+        </footer>
+    </body>
+</html> 

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Learn Coding</title>
+
+        <!--CSS File-->
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+
+        <header>
+          
+            <a href="index.html" class="company-name"><img class="logo"src="C:\Users\bhavy_1ljufsb\OneDrive\Desktop\Project (IA)\Media\3D_icons_to_show_security__protection__encryption_and_privacy-removebg-preview.png" alt="Logo">AcadeMate.</a>
+
+            <nav class="web-pages">
+                <a href="Learn.html" class="active-learn learn-main-nav-bar">Learn</a>
+                <a href="Help.html" class="help-main-nav-bar">Help</a>
+                <a href="Contact Us.html" class="contact-us-main-nav-bar">Contact Us</a>
+                <a href="About Us.html" class="about-us-main-nav-bar">About Us</a>
+            </nav>
+
+        </header>
+
+            <nav class="learn-nav-bar">
+                <a href="html.html" class="learn-nav-bar-a ">HTML</a>
+                <a href="Css.html" class="learn-nav-bar-a">CSS</a>
+                <a href="Java Script.html" class="learn-nav-bar-a">JAVA SCRIPT</a>
+                <a href="SQL.html" class="learn-nav-bar-a">SQL</a>
+                <a href="Python.html" class="learn-nav-bar-a active-language-links">PYTHON</a>
+                <a href="Java.html" class="learn-nav-bar-a">JAVA</a>
+                <a href="PHP.html" class="learn-nav-bar-a">PHP</a>
+                <a href="C.html" class="learn-nav-bar-a">C</a>
+                <a href="C++.html" class="learn-nav-bar-a">C++</a>
+                <a href="C has.html" class="learn-nav-bar-a">C#</a>
+                <a href="Ruby.html" class="learn-nav-bar-a">RUBY</a>
+                <a href="ReactJS.html" class="learn-nav-bar-a">REACT JS</a>
+                <a href="NodeJS.html" class="learn-nav-bar-a">NODE JS</a>
+                <a href="AI.html" class="learn-nav-bar-a">AI</a>
+                <a href="CyberSecurity.html" class="learn-nav-bar-a">CYBERSECURITY</a>
+                <a href="Excel.html" class="learn-nav-bar-a">Excel</a>
+            </nav>
+
+            <div class="learn-introduction-div">
+                <div class="learn-introduction-div-slogan">
+                    <h1 class="learn-main-text">
+                        Learn,<br>
+                        <span class="learn-gradient-text">Python.</span>
+                    </h1>
+                    
+                </div>
+                <div class="learn-introduction-div-img">
+                    <img src="C:\Users\bhavy_1ljufsb\OneDrive\Desktop\Project (IA)\Media\Translator_or_Translation_Language_Illustration__Say_hello_in_Different_Countries_and_Multilingual_International_Communication_Cartoon_Design-removebg-preview.png" alt="image" width="350px" height="200px">
+                </div>
+            </div>
+
+            <div class="learn-individual-pages">
+                
+                <h2>Introduction to Python</h2>
+                <p>Python is a high-level, interpreted programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991. Python emphasizes code readability and allows programmers to express concepts in fewer lines of code compared to other languages.</p>
+        
+                <h2>Applications of Python</h2>
+                <p>Python is used in various fields including:</p>
+                <ul>
+                    <li>Web development: Python frameworks like Django and Flask are widely used for building web applications.</li>
+                    <li>Data science and machine learning: Libraries such as NumPy, Pandas, and TensorFlow make Python a popular choice for data analysis, machine learning, and artificial intelligence projects.</li>
+                    <li>Scripting and automation: Python's simplicity and versatility make it ideal for writing scripts to automate tasks.</li>
+                    <li>Desktop GUIs: Python offers libraries like Tkinter for creating desktop graphical user interfaces.</li>
+                    <li>Game development: Pygame is a set of Python modules designed for writing video games.</li>
+                </ul>
+        
+                <h2>Benefits of Python</h2>
+                <ul>
+                    <li>Easy to learn and read: Python's simple syntax and readability make it accessible to beginners and experienced programmers alike.</li>
+                    <li>Large standard library: Python comes with a comprehensive standard library that provides support for many common programming tasks.</li>
+                    <li>Community support: Python has a large and active community of developers who contribute to its ecosystem by creating libraries, frameworks, and tools.</li>
+                    <li>Platform independence: Python is available on multiple platforms, including Windows, macOS, and Linux, making it suitable for cross-platform development.</li>
+                    <li>Integration capabilities: Python can easily integrate with other languages and platforms, allowing developers to leverage existing code and infrastructure.</li>
+                </ul>
+        
+                <h2>Negatives of Python</h2>
+                <ul>
+                    <li>Slower execution speed compared to compiled languages: Python's interpreted nature can result in slower performance compared to compiled languages like C++ or Java.</li>
+                    <li>Global interpreter lock (GIL): The GIL can limit concurrency in multi-threaded Python programs, affecting performance in CPU-bound applications.</li>
+                    <li>Not as suitable for high-performance computing or real-time systems: Due to its interpreted nature and performance limitations, Python may not be the best choice for applications requiring high computational speed or real-time responsiveness.</li>
+                </ul>
+        
+                
+                <div class="video-div">
+                    <h1 class="language-page-vid-h">Video Tutorial:</h1>
+                    <p><b>Learn at your own pace, Start watching our video tutorials by clicking your prefered language below</b></p>
+                    <div class="language-page-vid-button-group">
+                      <button onclick="playVideo(2)" class="language-page-vid-button">Hindi</button>
+                      <button onclick="playVideo(1)" class="language-page-vid-button">English</button>
+                    </div>
+                  
+                    <div class="video-container">
+                      <div id="video1" style="display: none;">
+                        <iframe width="1000" height="500" src="https://www.youtube.com/embed/rfscVS0vtbw" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                  
+                      <div id="video2" style="display: none;">
+                        <iframe width="1000" height="500" src="https://www.youtube.com/embed/ERCMXc8x7mc" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <script>
+                  function playVideo(videoNumber) {
+                    // Hide all videos
+                    document.getElementById('video1').style.display = 'none';
+                    document.getElementById('video2').style.display = 'none';
+                  
+                    // Show the selected video
+                    document.getElementById('video' + videoNumber).style.display = 'block';
+                  }
+                  </script>
+
+<h2>Further Learning</h2>
+<p>If you're interested in learning more about Python, here are some resources to get you started:</p>
+<ul>
+    <li><a href="https://www.python.org/">Official Python Website</a>: The official website of the Python programming language provides documentation, tutorials, and downloads for Python.</li>
+    <li><a href="https://docs.python.org/3/tutorial/index.html">Python Documentation</a>: The official Python documentation includes tutorials, guides, and references for learning Python.</li>
+    <li><a href="https://realpython.com/">Real Python</a>: Real Python offers tutorials, articles, and resources for Python developers of all skill levels.</li>
+    <li><a href="https://www.coursera.org/specializations/python">Python for Everybody Specialization on Coursera</a>: This specialization by the University of Michigan on Coursera covers Python programming from basics to advanced topics.</li>
+</ul>
+
+                
+            </div>
+        </div>
+            
+
+    
+        <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AcadeMate. All rights reserved.</p>  
+            </div>
+        </footer>
+    </body>
+</html> 

@@ -1,0 +1,574 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tilt+Neon&display=swap');
+
+
+/* Body/All Pages */
+
+html body {
+  margin: 0;
+  padding: 0;
+  background-color:white;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+
+img.logo {
+  height: 100px;
+  width: 100px;
+  vertical-align: middle;
+}
+
+
+a.company-name {
+  text-decoration:none;
+  font-size: 50px;
+  color:black;
+}
+
+
+                   /* Nav Bar */
+
+header {
+  color: black;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin:0px;
+}
+
+
+nav.web-pages {
+  display: flex;
+  margin-left: 480px;
+}
+
+
+nav.web-pages a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0px 35px /*2px*/;
+  color:black;
+  transition: all .50s ease;
+  border-bottom: 4px solid transparent;
+}
+
+
+                   /* Nav Bar- coloring (hover-and-active ) */
+
+nav.web-pages a.learn-main-nav-bar:hover {
+  border-bottom: 4px solid blue;
+}
+
+
+nav.web-pages a.help-main-nav-bar:hover {
+  border-bottom: 4px solid red;
+}
+
+
+nav.web-pages a.contact-us-main-nav-bar:hover {
+  border-bottom: 4px solid green;
+}
+
+
+nav.web-pages a.about-us-main-nav-bar:hover {
+  border-bottom: 4px solid purple;
+}
+
+
+nav.web-pages a.active-learn {
+  border-bottom: 4px solid blue;
+}
+
+
+nav.web-pages a.active-help {
+  border-bottom: 4px solid red;
+}
+
+
+nav.web-pages a.active-contact-us {
+  border-bottom: 4px solid green;
+}
+
+
+nav.web-pages a.active-about-us {
+  border-bottom: 4px solid purple;
+}
+
+
+
+/* Home-Index */
+
+div.home-main-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 50px 260px;
+  padding-top: 60px;
+}
+
+div.home-main-div h1 {
+  font-family: "Fredoka", sans-serif;
+  font-size: 150px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+div.home-main-div h1.home-colorful-text {
+  animation: colorChange 5s infinite;
+}
+
+@keyframes colorChange {
+  0% { color: #ff0000; }
+  25% { color: #008000; }
+  50% { color: #0000ff; }
+  75% { color: #800080; }
+  100% { color: #ff0000; }
+}
+
+
+div.home-main-div p {
+  font-size: 30px;
+}
+
+/* Home-Index */
+
+div.home-main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+
+
+div.home-main-div h1 {
+  font-family: "Fredoka", sans-serif;
+  font-size: 150px;
+  margin-bottom: 0;
+}
+
+div.home-main-div p {
+  font-size: 30px;
+}
+
+div.home-all-div-container {
+  text-align: center;
+  padding: 20px;
+}
+
+div.home-div-second-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+div.home-all-div-container .box {
+  width: 800px;
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+div.home-all-div-container div.box a.home-links {
+  text-decoration: none;
+  color: #000;
+}
+
+div.home-all-div-container .box img {
+  width: 110px;
+  height: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+div.home-all-div-container div.box p {
+  text-align: right;
+  margin: 0;
+}
+
+div.home-all-div-container div.box h3 {
+  text-align: right;
+}
+
+
+
+
+
+
+/* Learn */
+
+nav.learn-nav-bar {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  font-size: 16.5px;
+  margin-top: 105px;
+  padding: 10px 50px;
+  background: #f7f9fa;
+}
+
+nav.learn-nav-bar a.learn-nav-bar-a {
+  text-decoration: none;
+
+  color: #000;
+}
+
+nav.learn-nav-bar a.learn-nav-bar-a:hover{
+  background: linear-gradient(to right, #0D47A1, #4682B4, #87CEEB);
+  background-clip: text;
+  color: transparent;
+}
+
+nav.learn-nav-bar a.active-language-links {
+  background: linear-gradient(to right, #0D47A1, #4682B4, #87CEEB);
+  background-clip: text;
+  color: transparent;
+}
+
+div.learn-introduction-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px 50px 10px;
+  padding: 0px 40px;
+}
+
+span.learn-gradient-text {
+  background: linear-gradient(to right, #0D47A1, #4682B4, #87CEEB);
+  background-clip: text;
+  color: transparent;
+}
+
+
+div.learn-all-div-container {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  background: linear-gradient(to left, #87CEEB, #B0E0E6, #CAE1FF);
+  color: #000;
+  border-radius: 50px;
+  padding: 50px 20px 50px;
+  margin: 100px 50px 0px;
+}
+
+div.learn-inner-divs {
+  display: flex;
+  top: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 50px;
+}
+div.learn-small-div {
+  margin-bottom: 50px;
+}
+ 
+div.learn-small-div img {
+  float: right;
+  width: 100px;
+  height: 100px;
+}
+
+div.learn-small-div a {
+  text-decoration: none;
+  color: #000;
+}
+
+div.learn-individual-pages {
+  margin: 50px 50px;
+  padding: 20px 50px;
+  background: linear-gradient(to left, #fff, #CAE1FF);
+  border-radius: 50px;
+}
+
+div.video-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+button.language-page-vid-button {
+  cursor: pointer;
+  background: transparent;
+  font-size: 15px;
+  color: #000;
+  padding: 10px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #000;
+  border-radius: 20px;
+}
+
+div.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+a.learn-html-page-course-link {
+  color: #000;
+}
+
+
+
+
+
+
+/* Help */
+
+div.help-all-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 160px 150px 0px;
+  background: transparent;
+}
+
+div.help-heading-left-side-div {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}  
+
+div.help-heading-left-side-div h1 {
+  margin-bottom: 0px;
+  font-size: 40px;
+}
+
+div.help-heading-left-side-div h1 b{
+  margin-bottom: 0px;
+  padding-left: 1px;
+  font-size: 50px;
+}
+
+img.help-img {
+  width: auto;
+  height: 300px;
+  padding-left: 50px;
+}
+
+div.help-heading-left-side-div a.help-left-side-div-link {
+  text-decoration: none;
+}
+
+div.help-all-container b.help-cantact-page-link {
+  color: red;
+  font-size: 20px;
+}
+
+div.help-all-container b.help-text-highlight {
+  color: red;
+}
+
+div.help-questions-right-side-div {
+  width: 100%;
+  height: 100%;
+  background:transparent;
+  padding-top: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+}  
+
+div.help-questions-right-side-div details {
+  padding-bottom: 50px;
+  font-size: 17px;
+}
+
+div.help-questions-right-side-div summary:hover {
+  cursor: pointer;
+}
+
+div.help-questions-right-side-div summary {
+  background-color: #FFDDDD;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+div.help-questions-right-side-div div {
+  padding: 10px 0px 0px 30px;
+  border-radius: 10px;
+}
+
+
+
+/* Contact Us */
+
+div.contact-us-all-divs {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  justify-content: space-between;
+  margin: 200px 0px 114px 0px;
+}
+
+div.contact-us-icons nav {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 65px;
+}
+
+div.contact-us-icons nav a {
+  text-decoration: none;
+  color: green;
+  padding: 5px 5px;
+}
+
+div.contact-us-icons nav a i {
+  size: 5px;
+}
+
+div.contact-us-icons nav a:hover {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+
+div.contact-us-form-left-side-div {
+  padding: 30px 50px 40px;
+  background: #def7e5;
+  border-radius: 20px;
+}
+
+b.contact-us-highlight-text {
+  color: green;
+}
+
+div.contact-us-form-left-side-div div.contact-us-form-input-box {
+  padding: 10px 0px;
+
+}
+
+div.contact-us-form-left-side-div input.contact-us-input-value {
+  background: transparent;
+  border: 3px solid green;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 5px 20px 5px 10px;
+}
+
+div.contact-us-form-left-side-div textarea.contact-us-input-value {
+  background: transparent;
+  border: 3px solid green;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 5px 20px 5px 10px;
+}
+
+div.contact-us-form-left-side-div button.submit-button {
+  background: transparent;
+  border: 3px solid green;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 5px 20px 5px 10px;
+  cursor: pointer;
+}
+
+
+div.contact-us-img-right-side-div {
+  margin-right: 50px;
+}
+
+div.contact-us-img-right-side-div img {
+  height: 500px;
+  width:500px;
+}
+
+
+
+/* About Us */
+
+div.about-us-all-div-container {
+  text-align: center;
+  margin: 150px 50px 150px;
+  height:100%;
+}
+
+div.about-us-div-row div.about-us-div-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+div.about-us-div-row div.about-us-div-heading h1 {
+  padding-left: 1050px;
+}
+
+div.about-us-div-row div.about-us-div-heading b.about-us-text-highlight {
+  color: #6A0DAD;
+  padding-left: 180px;
+}
+
+div.about-us-div-row {
+  display: inline-block;
+  width: 100%;
+}
+div.about-us-div-row-col {
+  padding: 0px 5px;
+  width: 31%; /* Adjust the width of each column as per your design */
+  background: #F2EBFF;
+  margin: 1%;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  height: 220px; /* Set a fixed height for consistency */
+}
+
+div.about-us-div-row-col h2 {
+  color: purple;
+}
+
+div.about-us-div-row-col p {
+  padding: 0px 10px;
+}
+
+div.about-us-div-row-col-big {
+  width: 100%; /* Adjust the width of each column as per your design */
+  background: #F2EBFF;
+  margin: 1%;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  height: 200px; /* Set a fixed height for consistency */
+}
+
+
+
+
+  /* Footer */
+
+  footer {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer div.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    border-top: 2px solid #000;
+}
+
+footer div.footer-bottom p {
+    margin: 0;
+    font-size: 18px;
+}
